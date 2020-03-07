@@ -463,6 +463,7 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = $PROJECT_DIR/SSBackgroundLocation/SSBackgroundLocation;
 				INFOPLIST_FILE = SampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,6 +493,7 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = $PROJECT_DIR/SSBackgroundLocation/SSBackgroundLocation;
 				INFOPLIST_FILE = SampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -6,29 +6,29 @@
 //  Copyright © 2020 Shebin Koshy. All rights reserved.
 //
 
-import SwiftUI
+//import SwiftUI
 import MapKit
 
-@available(iOS 13.0, *)
-struct MapView: UIViewRepresentable {
-    func makeUIView(context: UIViewRepresentableContext<MapView>) -> SSMapView {
-        SSMapView(frame: .zero)
-    }
-
-    func updateUIView(_ mapView: SSMapView, context: UIViewRepresentableContext<MapView>) {
-        SampleAnnotation.annotationSetup(mapView: mapView)
-    }
-    
-    
-}
-
-
-@available(iOS 13.0, *)
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        MapView()
-    }
-}
+//@available(iOS 13.0, *)
+//struct MapView: UIViewRepresentable {
+//    func makeUIView(context: UIViewRepresentableContext<MapView>) -> SSMapView {
+//        SSMapView(frame: .zero)
+//    }
+//
+//    func updateUIView(_ mapView: SSMapView, context: UIViewRepresentableContext<MapView>) {
+//        SampleAnnotation.annotationSetup(mapView: mapView)
+//    }
+//    
+//    
+//}
+//
+//
+//@available(iOS 13.0, *)
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MapView()
+//    }
+//}
 
 
 class SampleAnnotation: NSObject, MKAnnotation {

@@ -8,3 +8,7 @@ How to test this library?
 2. Force quit the app
 3. Travel to somewhere little far (If you are using simulator, you can choose "Freeway Drive")
 4. Open the app
+
+
+### AppStore apps that uses this SDK
+1. StreetWall https://apps.apple.com/us/app/streetwall-post-notify-events/id1551537251
